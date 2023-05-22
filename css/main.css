@@ -198,6 +198,15 @@ address {
   background: #2f303a;
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-address {
+  margin-right: 70px;
+}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 20px;
@@ -237,4 +246,43 @@ address {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--transparent-color);
+}
+
+.footer-soc-wrap {
+  width: 206px;
+}
+
+.footer-soc-text {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--light-color);
+}
+
+.footer-soc-list {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-soc-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  color: var(--light-color);
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: var(--accent-color);
+}
+
+.footer-soc-svg {
+  width: 20px;
+  height: 20px;
 }
